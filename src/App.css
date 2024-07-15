@@ -23,6 +23,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.app-header {
+  
+  margin: -109px 0px 127px -92px;
+    padding: 0px;
+    text-align: start;
+    color: white;
+}
+
+.app-footer {
+  position: absolute;
+  bottom: 0;
+  width: 85%;
+  height: 50px;
+ 
+  text-align: center;
+  color: black;
+}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +53,42 @@
     transform: rotate(360deg);
   }
 }
+  body {
+    margin: 0;
+    padding: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 236px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 20%;
+    padding:70px;
+  }
+ 
+  
+  .card-title {
+    color: #333;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
